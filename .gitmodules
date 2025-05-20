@@ -1,0 +1,3 @@
+[submodule "LearningHumanoidWalking"]
+	path = LearningHumanoidWalking
+	url = git@github.com:rohanpsingh/LearningHumanoidWalking.git
