@@ -34,6 +34,8 @@ RUN python3 -m pip install intel-openmp --break-system-packages
 RUN python3 -m pip install mujoco-python-viewer --break-system-packages
 RUN python3 -m pip install transforms3d --break-system-packages
 RUN python3 -m pip install scipy --break-system-packages
+RUN python3 -m pip install tensorboard --break-system-packages
+
 
 RUN python3 -m pip install matplotlib --break-system-packages
 RUN python3 -m pip install dm_control==1.0.22 --break-system-packages
