@@ -15,7 +15,7 @@ SHELL ["/bin/bash", "-c"]
 RUN sed -i 's@archive.ubuntu.com@ftp.jaist.ac.jp/pub/Linux@g' /etc/apt/sources.list
 
 # Install basic packages
-RUN apt-get update -qq && apt-get install -y sudo aptitude build-essential lsb-release wget gnupg2 curl emacs
+RUN apt-get update -qq && apt-get install -y sudo aptitude build-essential lsb-release wget gnupg2 curl emacs mesa-utils
 RUN aptitude update -q
 
 # requirements: https://github.com/rohanpsingh/LearningHumanoidWalking
